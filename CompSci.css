@@ -1,0 +1,18 @@
+p{
+    color: lightblue
+}
+
+body {
+    background-image: url(Downloads/bgs/sidetrackedcut1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table, th, td {
+    border: 1px solid aquamarine;
+    border-collapse: collapse;
+    color: lightgreen
+}
+
