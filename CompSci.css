@@ -3,7 +3,7 @@ p{
 }
 
 body {
-    background-image: url(Downloads/bgs/sidetrackedcut1.jpg);
+    background-image: url('sidetrackedcut1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
