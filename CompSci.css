@@ -11,11 +11,11 @@ body {
 table, th, td {
     border: 1px solid aquamarine;
     border-collapse: collapse;
-    color: lightgreen
+    color: white
 }
 
 .potato {
-    color: limegreen;
+    color: rgb(9, 236, 149);
     text-align: center;
 }
 
