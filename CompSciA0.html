@@ -6,19 +6,22 @@
     <link href="CompSci.css" rel="stylesheet">
     <link rel="icon" href="https://i.ytimg.com/vi/pY37sJbxL4s/maxresdefault.jpg">
     <script>
-        function sexyBingus() {
-            neko = document.getElementById("myBingus");
+        function haya(x) {
+            return document.getElementById(x);
+        }
+        function daBingus() {
+            neko = haya("myBingus");
             neko.style.color = "blue";
             neko.innerHTML = "this box has been bingusfied wow"
         }
         function iHateBingus() {
-            shinde = document.getElementById("myBingus");
+            shinde = haya("myBingus");
             shinde.style.color = "white"
             shinde.innerHTML = "aaaaaa"
             alert("Why you hatin on bingus\nFoo")
         }
     </script>
-    <noscript>Bruh Lmao 2008 moment</noscript>
+    <noscript>mfw no javascript bozo</noscript>
 </head>
 
 <body>
@@ -50,7 +53,7 @@
         </tr>
         <tr>
             <td id="myBingus">aaaaaa</td>
-            <td><button type="button" onclick="sexyBingus()">Bingus the Box</button><br>
+            <td><button type="button" onclick="daBingus()">Bingus the Box</button><br>
                 <button type="button" onclick="iHateBingus()">Unbingus the Box</button>
             </td>
         </tr>
