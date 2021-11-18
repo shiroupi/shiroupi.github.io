@@ -1,18 +1,26 @@
-p{
-    color: lightblue
-}
-
 body {
     background-image: url('sidetrackedcut1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    color: lightblue;
+    text-align: center;
 }
 
 table, th, td {
     border: 1px solid aquamarine;
     border-collapse: collapse;
     color: lightgreen
+}
+
+.potato {
+    color: limegreen;
+    text-align: center;
+}
+
+.tomato {
+    color: turquoise;
+    text-align: left;
 }
 
