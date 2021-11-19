@@ -2,7 +2,6 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, intial-scale-1.0">
     <title>most pog site</title>
     <link rel="icon" type="image/x-icon" href="pollosquare.jpg">
     <style>
@@ -21,6 +20,22 @@
             margin-right: auto;
         }
     </style>
+    <script>
+        function haya(x) {
+            return document.getElementById(x);
+        }
+        function thisIsBTS() {
+            ichi = haya("ripus");
+            ichi.src = "squid-game-bts.gif"
+        }
+        function NoBozoHere() {
+            ichi = haya("ripbozo")
+            ichi.innerHTML = "is that a squid game reference"
+            ni = haya("chimken")
+            ni.innerHTML = "what you know bout rollin down in the deep end\nbrain goes numb callekghksdfhjksdfjka"
+            alert("sae-byeok noooooooooooooooooo")
+        }
+    </script>
 </head>
 
 <body>
@@ -40,14 +55,15 @@
     <span style="color: lightsalmon">Emperor Khan blessup</span><br>
     </p>
     <hr>
-    <h1 style="font-size:62px;">#RIPBOZO😹👎</h1>
-    <p><img src="rip-bozo-ripus-bozus.gif" width="500" height="404"></p>
-    <pre><b>
+    <h1 style="font-size:62px;" id="ripbozo">#RIPBOZO😹👎</h1>
+    <p><img src="rip-bozo-ripus-bozus.gif" width="500" height="404" id="ripus"></p>
+    <pre id="chimken"><b>
         Smokin on that <q>html is so hard</q> pack
         Rip bozo joy
         Xdddd
         Glory to Supreme Leader Lim
         </b>
     </pre>
+    <p><button type="button" onclick="thisIsBTS();NoBozoHere()">Watch Squid Game</button></p>
 </body>
 </html>
