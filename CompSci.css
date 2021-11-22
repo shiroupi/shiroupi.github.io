@@ -8,6 +8,42 @@ body {
     text-align: center;
 }
 
+header {
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 27px;
+}
+
+.navi {
+    background-color: rgb(255, 210, 217);
+    padding: 20px;
+    height: 100%;
+}
+
+aside {
+    background-color: lightseagreen;
+    color: brown;
+    float: left;
+    padding: 20px;
+    width: 20%;
+}
+
+.sec1 {
+    background-color: white;
+    color: green;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    background-color: lightsteelblue;
+    color: white;
+}
+
 table, th, td {
     border: 1px solid aquamarine;
     border-collapse: collapse;
@@ -23,4 +59,3 @@ table, th, td {
     color: turquoise;
     text-align: left;
 }
-
