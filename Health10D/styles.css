@@ -1,0 +1,115 @@
+body {
+    background-image: url('https://assets.architecturaldigest.in/photos/6008501eb3d78db39997ddfe/4:3/w_1024,h_768,c_limit/runna10-getty-images-bedroom-covid-19-1366x768.jpg');
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 1366px 768px;
+    background-repeat: no-repeat;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(1000, 0.01fr);
+    grid-template-rows: repeat(500, 0.01fr);
+}
+
+button {font-family: 'Zen Kaku Gothic Antique', sans-serif;}
+
+/* Row Start (y) / Column Start (x) / Row End (y+1) / Column End (x+1) */
+/*Multicultural*/
+#koreanflag {grid-area: 110 / 367 / 111 / 368; position: relative; width: 210px; height: 100px;}
+
+#koreanflag .flag, #koreanflag .flagtxt {transition: opacity 0.2s ease-in-out;}
+
+#koreanflag .flagtxt {position: absolute; top: 0; left: 0; opacity: 0;}
+
+#koreanflag:hover .flag {opacity: 0;}
+
+#koreanflag:hover .flagtxt {opacity: 1;}
+
+.flagtxt {color: black; font-size: 12px;}
+/*Intellectual*/
+#calcbook {grid-area: 410 / 570 / 411 / 571; position: relative; width: 100px; height: 30px;}
+
+#calcbook .cbook, #calcbook .cbooktxt {transition: opacity 0.2s ease-in-out;}
+
+#calcbook .cbooktxt {position: absolute; top: 0; left: 0; opacity: 0;}
+
+#calcbook:hover .cbook {opacity: 0;}
+
+#calcbook:hover .cbooktxt {opacity: 1;}
+
+.cbooktxt {font-size: 10px;}
+/*Financial*/
+#piggybank {grid-area: 152 / 545 / 153 / 546; position: relative; width: 200px; height: 30px;}
+
+#piggybank .bank, #piggybank .banktxt {transition: opacity 0.2s ease-in-out;}
+
+#piggybank .banktxt {position: absolute; top: 0; left: 0; opacity: 0;}
+
+#piggybank:hover .bank {opacity: 0;}
+
+#piggybank:hover .banktxt {opacity: 1;}
+
+.banktxt {font-size: 10px;}
+/*Occupational*/
+#vsc {grid-area: 323 / 528 / 324 / 529; position: relative; width: 120px; height: 30px;}
+
+#vsc .vscode, #vsc .vsctxt {transition: opacity 0.2s ease-in-out;}
+
+#vsc .vsctxt {position: absolute; top: 0; left: 0; opacity: 0;}
+
+#vsc:hover .vscode {opacity: 0;}
+
+#vsc:hover .vsctxt {opacity: 1;}
+
+.vsctxt {font-size: 10px;}
+/*Physical*/
+#bed {grid-area: 325 / 385 / 326 / 386; position: relative; width: 120px; height: 30px;}
+
+#bed .beds, #bed .bedtxt {transition: opacity 0.2s ease-in-out;}
+
+#bed .bedtxt {position: absolute; top: 0; left: 0; opacity: 0;}
+
+#bed:hover .beds {opacity: 0;}
+
+#bed:hover .bedtxt {opacity: 1;}
+
+.bedtxt {font-size: 10px;}
+/*Environmental*/
+#envir {grid-area: 280 / 740 / 281 / 741;}
+
+#envib {border-radius: 20px; background-color: rgb(64, 95, 64); color:white}
+/*Emotional*/
+#emo {grid-area: 370 / 680 / 371 / 681;}
+
+#emob {border-radius: 20px; background-color: rgb(190, 189, 189); color:rgb(0, 0, 0)}
+/*Sexual*/
+#sexual {grid-area: 110 / 570 / 111 / 571; position: relative; width: 120px; height: 30px;}
+
+#sexual .sh, #sexual .shtxt {transition: opacity 0.2s ease-in-out;}
+
+#sexual .shtxt {position: absolute; top: 0; left: 0; opacity: 0;}
+
+#sexual:hover .sh {opacity: 0;}
+
+#sexual:hover .shtxt {opacity: 1;}
+
+.shtxt {font-size: 10px;}
+/*Social*/
+#social {grid-area: 405 / 480 / 406 / 481; position: relative; width: 120px; height: 30px;}
+
+#social .so, #social .sotxt {transition: opacity 0.2s ease-in-out;}
+
+#social .sotxt {position: absolute; top: 0; left: 0; opacity: 0;}
+
+#social:hover .so {opacity: 0;}
+
+#social:hover .sotxt {opacity: 1; font-size: 10px}
+/*Spiritual*/
+#spiritual {grid-area: 430 / 490 / 431 / 491; position: relative; width: 120px; height: 30px;}
+
+#spiritual .sp, #spiritual .sotxt {transition: opacity 0.2s ease-in-out;}
+
+#spiritual .sptxt {position: absolute; top: 0; left: 0; opacity: 0;}
+
+#spiritual:hover .sp {opacity: 0;}
+
+#spiritual:hover .sptxt {opacity: 1; font-size: 10px}
